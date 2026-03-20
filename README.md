@@ -261,43 +261,10 @@ policy_loss ≈ 1.099  →  STILL RANDOM (policy has not learned)
 
 ---
 
-## How to Add Graphs to This README
-
-The evaluation cell (Cell 8) saves a 4-panel figure as `AlphaHVAC_Final.png`. To embed it in this README, follow these steps.
-
-### Step 1 — Save your plots from the notebook
-
-Cell 8 already saves the evaluation figure automatically:
-
-```python
-plt.savefig("AlphaHVAC_Final.png", dpi=150, bbox_inches="tight")
-```
-
-You can also save individual plots by adding similar lines to any cell:
-
-```python
-fig.savefig("my_plot.png", dpi=150, bbox_inches="tight")
-```
-
-### Step 2 — Put your images in the repository
-
-Create an `images/` folder at the root of your project and copy all saved PNG files there:
-
-```
-AlphaHVAC/
-├── images/
-│   ├── AlphaHVAC_Final.png          ← 4-panel evaluation plot
-│   ├── energy_comparison.png         ← energy saving graph
-│   ├── action_distribution.png       ← action scatter plot
-│   └── architecture_diagram.png      ← system diagram
-├── AlphaHVAC_FinalCorrected.ipynb
-└── README.md
-```
 **Figure 1 — 4-Panel Test Evaluation**
-```
-![4-Panel Evaluation](Images/AlphaHVAC_Final.png)
 
-```
+![4-Panel Evaluation](images/AlphaHVAC_Final.png)
+
 This plot shows: (1) energy consumption baseline vs model with green savings area, (2) damper position over time, (3) action scatter plot colored by action type, (4) temperature deviation comparison.
 
 ## Project Structure
