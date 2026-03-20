@@ -263,7 +263,7 @@ policy_loss ≈ 1.099  →  STILL RANDOM (policy has not learned)
 
 **Figure 1 — 4-Panel Test Evaluation**
 
-![4-Panel Evaluation](images/AlphaHVAC_Final.png)
+![4-Panel Evaluation](Images/AlphaHVAC_Final.png)
 
 This plot shows: (1) energy consumption baseline vs model with green savings area, (2) damper position over time, (3) action scatter plot colored by action type, (4) temperature deviation comparison.
 
